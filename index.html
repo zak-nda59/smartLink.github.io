@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartLink - Votre Bio Link Intelligent</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-link me-2"></i>SmartLink</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Fonctionnalités</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#demo">Démo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="demo.html">
+                            <i class="fas fa-play me-1"></i>Démo Live
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-outline-light ms-2 px-3" href="profile.html">Commencer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-particles"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-badge mb-3">
+                        <span class="badge bg-success px-3 py-2">
+                            <i class="fas fa-star me-1"></i>
+                            #1 Alternative à Linktree
+                        </span>
+                    </div>
+                    <h1 class="display-4 fw-bold mb-4 hero-title">
+                        Créez votre <span class="text-gradient">Bio Link</span> 
+                        <span class="highlight-word">professionnel</span>
+                    </h1>
+                    <p class="fs-5 mb-4 hero-subtitle">
+                        <strong>SmartLink</strong> révolutionne votre présence en ligne avec une page de liens 
+                        <span class="text-primary fw-semibold">100% personnalisable</span>, 
+                        des <span class="text-primary fw-semibold">statistiques avancées</span> et 
+                        un <span class="text-primary fw-semibold">design responsive</span> parfait.
+                    </p>
+                    
+                    <!-- Features bullets -->
+                    <div class="hero-features mb-4">
+                        <div class="feature-bullet">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span>Installation en <strong>moins de 5 minutes</strong></span>
+                        </div>
+                        <div class="feature-bullet">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span><strong>100% gratuit</strong> - Code source complet inclus</span>
+                        </div>
+                        <div class="feature-bullet">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <span><strong>Code source complet</strong> - Personnalisez tout</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-cta">
+                        <div class="d-flex gap-3 flex-wrap align-items-center">
+                            <a href="profile.html" class="btn btn-primary btn-lg btn-cta">
+                                <i class="fas fa-rocket me-2"></i>Commencer Maintenant
+                                <small class="d-block">100% Gratuit - Aucune inscription</small>
+                            </a>
+                            <a href="demo.html" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-play me-2"></i>Démo Interactive
+                            </a>
+                        </div>
+                        <div class="hero-guarantee mt-3">
+                            <small class="text-light opacity-75">
+                                <i class="fas fa-shield-alt me-1"></i>
+                                Code source complet - Documentation incluse - Open Source
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-phone">
+                        <div class="phone-mockup">
+                            <div class="phone-content">
+                                <div class="profile-preview">
+                                    <img src="assets/images/avatar-demo.svg" alt="Avatar" class="profile-img">
+                                    <h4 class="mb-1">@alex_creator</h4>
+                                    <p class="mb-3 text-muted">🎨 Créateur de contenu | 📱 Tech & Design</p>
+                                    <div class="links-preview">
+                                        <div class="link-item instagram">
+                                            <i class="fab fa-instagram"></i> 
+                                            <span>Instagram</span>
+                                            <small>38 clics</small>
+                                        </div>
+                                        <div class="link-item youtube">
+                                            <i class="fab fa-youtube"></i> 
+                                            <span>YouTube</span>
+                                            <small>22 clics</small>
+                                        </div>
+                                        <div class="link-item default">
+                                            <i class="fas fa-globe"></i> 
+                                            <span>Portfolio</span>
+                                            <small>45 clics</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <div class="stat-number">5,000+</div>
+                        <div class="stat-label">Téléchargements</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <div class="stat-number">4.8/5</div>
+                        <div class="stat-label">Note GitHub</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Open Source</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4">
+                    <div class="stat-item">
+                        <div class="stat-number">MIT</div>
+                        <div class="stat-label">Licence</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Pourquoi choisir SmartLink ?</h2>
+                    <p class="lead">Toutes les fonctionnalités dont vous avez besoin pour optimiser votre présence en ligne</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4>Personnalisation complète</h4>
+                        <p>Choisissez parmi plusieurs thèmes, couleurs et styles pour créer une page qui vous ressemble.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Statistiques détaillées</h4>
+                        <p>Suivez les clics sur vos liens et analysez les performances de votre page.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>100% Responsive</h4>
+                        <p>Votre page s'adapte parfaitement à tous les écrans, du mobile au desktop.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-drag-drop"></i>
+                        </div>
+                        <h4>Drag & Drop</h4>
+                        <p>Réorganisez vos liens facilement par simple glisser-déposer.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <h4>Réseaux sociaux</h4>
+                        <p>Intégrations spéciales pour Instagram, YouTube, Spotify et plus encore.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <h4>Mode sombre</h4>
+                        <p>Basculez entre les thèmes clair et sombre selon vos préférences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Ce que disent nos clients</h2>
+                    <p class="lead">Plus de 10,000 créateurs nous font confiance</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <blockquote class="testimonial-quote">
+                            "SmartLink est incroyable ! Code source propre, installation ultra-simple et résultat professionnel. Parfait pour mes projets clients !"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="author-info">
+                                <div class="author-name">Marie Dubois</div>
+                                <div class="author-title">Influenceuse Mode</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <blockquote class="testimonial-quote">
+                            "Enfin une alternative gratuite à Linktree avec le contrôle total ! Code source libre et fonctionnalités complètes. Parfait !"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="author-info">
+                                <div class="author-name">Thomas Martin</div>
+                                <div class="author-title">Entrepreneur</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <blockquote class="testimonial-quote">
+                            "Code propre, documentation parfaite, open source. Exactement ce que je cherchais pour mes projets. Je recommande à 100% !"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="author-info">
+                                <div class="author-name">Sophie Laurent</div>
+                                <div class="author-title">Développeuse Web</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Highlight Section -->
+    <section class="features-highlight-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">SmartLink - Tout Inclus</h2>
+                    <p class="lead">Code source complet, documentation et support - 100% gratuit</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="features-card">
+                        <div class="features-badge">
+                            <span class="badge bg-success">OPEN SOURCE</span>
+                        </div>
+                        <div class="features-header">
+                            <h3 class="features-title">SmartLink Complet</h3>
+                            <div class="features-price">
+                                <span class="price-text">100% GRATUIT</span>
+                            </div>
+                            <p class="features-subtitle">Tout inclus - Code source libre</p>
+                        </div>
+                        <div class="features-list">
+                            <div class="feature-item">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Code source complet (HTML, CSS, JS)
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Documentation complète + guide d'installation
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check text-success me-2"></i>
+                                5 thèmes prédéfinis + personnalisation illimitée
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Statistiques avancées + export de données
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Démo interactive incluse
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Licence MIT - Usage commercial autorisé
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check text-success me-2"></i>
+                                Responsive design parfait
+                            </div>
+                        </div>
+                        <div class="features-cta">
+                            <a href="profile.html" class="btn btn-success btn-lg w-100 mb-3">
+                                <i class="fas fa-download me-2"></i>
+                                Télécharger Maintenant
+                            </a>
+                            <small class="text-muted">
+                                <i class="fas fa-code me-1"></i>
+                                Code source libre - Aucune restriction
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Essayez SmartLink maintenant</h2>
+                    <p class="lead">Créez votre première page en quelques clics</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="demo-container">
+                        <div class="demo-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <h5>Personnalisez votre profil</h5>
+                                <p>Ajoutez votre photo, nom et bio</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <h5>Ajoutez vos liens</h5>
+                                <p>Ajoutez tous vos liens importants</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <h5>Partagez votre page</h5>
+                                <p>Utilisez votre lien unique partout</p>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a href="profile.html" class="btn btn-primary btn-lg">
+                                <i class="fas fa-arrow-right me-2"></i>Commencer maintenant
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5><i class="fas fa-link me-2"></i>SmartLink</h5>
+                    <p class="mb-0">Votre bio link intelligent et personnalisable</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">© 2024 SmartLink. Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Theme Toggle Button -->
+    <button id="themeToggle" class="theme-toggle" title="Basculer le thème">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
